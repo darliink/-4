@@ -1,0 +1,17 @@
+for i in range(7) :
+    print( 'A' * 3)
+for i in range(6) :
+    print( 'B' * 7)
+    print( 'E' )
+for i in range(10) :
+    print( 'T' * 4)
+    print( 'W')
+    
+    
+    
+    numbers = [ 345, 567, 896, 5789, 678, 907, 456, 678, 354, 278, 675, 567, 349, 890, 23, 1, 78 ]
+for x in numbers:
+    if x == 1:
+        break
+    elif x % 2 == 0:
+        print(x)
